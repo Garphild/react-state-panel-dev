@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './StateObserver.scss';
 
-export default function Index(props) {
+function Index(props) {
   const {
     state,
     onChange,
@@ -64,3 +64,7 @@ Index.propTypes = {
   state: PropTypes.object.isRequired,
   onChange: PropTypes.func.isRequired,
 };
+
+const exp = process.env.NODE_ENV === 'development' ? Index : null;
+
+export default exp;
