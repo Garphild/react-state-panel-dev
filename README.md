@@ -13,6 +13,6 @@ function onChange(field, value) => {
 }
 <StateObserver state={this.state} onChange={this.onChange} />
 ````
-# Props
+# Props 
 * state (Object) - state for show
 * onChange (function(field, value)) - function to change state
