@@ -1,4 +1,7 @@
 Simple React/Preact component for show and change current state/props/content of component.
+
+(alpha version)
+
 # Install
 ````
 yarn add https://github.com/Garphild/react-state-panel-dev
