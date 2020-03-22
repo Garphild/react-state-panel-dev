@@ -66,7 +66,7 @@ StateObserver.propTypes = {
 };
 
 function emptyComponent() {
-  return null;
+  return <div>{process.env.NODE_ENV}</div>;
 }
 
 const exp = (process.env.NODE_ENV === 'development' ? StateObserver : emptyComponent);
