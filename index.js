@@ -1,1 +1,1 @@
-module.exports = require('./src/components/StateObserver');
+module.exports = require('./build/StateObserver').default;
