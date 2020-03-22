@@ -1,6 +1,7 @@
 {
-  "name": "state-panel-dev",
+  "name": "@garphild/state-panel-dev",
   "version": "1.0.6",
+  "author": "Serhii Kondrashov <garphild@garphild.pro>",
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
