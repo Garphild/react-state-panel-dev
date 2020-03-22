@@ -1,0 +1,37 @@
+{
+  "name": "state-panel-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^9.1.0",
+    "@neutrinojs/jest": "^9.1.0",
+    "@neutrinojs/react-components": "^9.1.0",
+    "@neutrinojs/style-loader": "^9.1.0",
+    "autoprefixer": "^9.7.4",
+    "eslint": "^6",
+    "jest": "^25",
+    "neutrino": "^9.1.0",
+    "node-sass": "^4.13.1",
+    "postcss": "^7.0.27",
+    "postcss-loader": "^3.0.0",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}
