@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './StateObserver.scss';
 
-function Index(props) {
+function StateObserver(props) {
   const {
     state,
     onChange,
@@ -59,12 +59,12 @@ function Index(props) {
   );
 }
 
-Index.propTypes = {
+StateObserver.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   state: PropTypes.object.isRequired,
   onChange: PropTypes.func.isRequired,
 };
 
-const exp = process.env.NODE_ENV === 'development' ? Index : null;
+const exp = (process.env.NODE_ENV === 'development' ? StateObserver : null);
 
 export default exp;
