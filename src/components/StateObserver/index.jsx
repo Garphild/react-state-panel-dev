@@ -65,6 +65,10 @@ StateObserver.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
-const exp = (process.env.NODE_ENV === 'development' ? StateObserver : '');
+function emptyComponent() {
+  return null;
+}
+
+const exp = (process.env.NODE_ENV === 'development' ? StateObserver : emptyComponent);
 
 export default exp;
